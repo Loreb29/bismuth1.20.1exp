@@ -1,0 +1,36 @@
+{
+  "mappings": {
+    "ru/paulevs/bismuthlib/mixin/LevelRendererMixin": {
+      "Lnet/minecraft/client/renderer/ShaderInstance;apply()V": "Lnet/minecraft/class_5944;method_34586()V",
+      "renderChunkLayer": "Lnet/minecraft/class_761;method_3251(Lnet/minecraft/class_1921;Lnet/minecraft/class_4587;DDDLorg/joml/Matrix4f;)V",
+      "renderLevel": "Lnet/minecraft/class_761;method_22710(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lorg/joml/Matrix4f;)V"
+    },
+    "ru/paulevs/bismuthlib/mixin/MinecraftMixin": {
+      "<init>*": "Lnet/minecraft/class_310;<init>(Lnet/minecraft/class_542;)V"
+    },
+    "ru/paulevs/bismuthlib/mixin/RenderChunkMixin": {
+      "setNotDirty": "Lnet/minecraft/class_846$class_851;method_3662()V"
+    },
+    "ru/paulevs/bismuthlib/mixin/TextureAtlasSpriteAccessor": {
+      "byMipLevel": "field_40540:[Lnet/minecraft/class_1011;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "ru/paulevs/bismuthlib/mixin/LevelRendererMixin": {
+        "Lnet/minecraft/client/renderer/ShaderInstance;apply()V": "Lnet/minecraft/class_5944;method_34586()V",
+        "renderChunkLayer": "Lnet/minecraft/class_761;method_3251(Lnet/minecraft/class_1921;Lnet/minecraft/class_4587;DDDLorg/joml/Matrix4f;)V",
+        "renderLevel": "Lnet/minecraft/class_761;method_22710(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lorg/joml/Matrix4f;)V"
+      },
+      "ru/paulevs/bismuthlib/mixin/MinecraftMixin": {
+        "<init>*": "Lnet/minecraft/class_310;<init>(Lnet/minecraft/class_542;)V"
+      },
+      "ru/paulevs/bismuthlib/mixin/RenderChunkMixin": {
+        "setNotDirty": "Lnet/minecraft/class_846$class_851;method_3662()V"
+      },
+      "ru/paulevs/bismuthlib/mixin/TextureAtlasSpriteAccessor": {
+        "byMipLevel": "field_40540:[Lnet/minecraft/class_1011;"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "bismuthlib",
+	"version": "${version}",
+	
+	"name": "Bismuth Lib",
+	"description": "A mod and library for colored lights",
+	"authors": [
+		"paulevs"
+	],
+	"contact": {
+		"homepage": "https://github.com/paulevsGitch/BismuthLib",
+		"sources": "https://github.com/paulevsGitch/BismuthLib",
+		"issues": "https://github.com/paulevsGitch/BismuthLib/issues"
+	},
+	
+	"license": "MIT",
+	"icon": "assets/bismuthlib/icon.png",
+	
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"ru.paulevs.bismuthlib.BismuthLibClient"
+		]
+	},
+	"mixins": [
+		"bismuthlib.mixins.json"
+	],
+	
+	"depends": {
+		"fabricloader": ">=0.14.6",
+		"fabric": "*",
+		"minecraft": "1.20.1",
+		"java": ">=17"
+	}
+}

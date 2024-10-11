@@ -1,0 +1,3 @@
+v1	named	intermediary
+FIELD	ru/paulevs/bismuthlib/mixin/LevelRendererMixin	Lnet/minecraft/client/multiplayer/ClientLevel;	level	field_4085
+FIELD	ru/paulevs/bismuthlib/mixin/RenderChunkMixin	Lnet/minecraft/core/BlockPos$MutableBlockPos;	origin	field_4467
